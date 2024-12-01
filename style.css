@@ -66,8 +66,6 @@ nav {
   top: 100%;
 }
 
-
-
 .nav-dropdown > ul {
   list-style: none;
   display: flex;
@@ -106,7 +104,7 @@ nav {
 }
 
 .text-hero {
-  width: 60%;
+  width: 70%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -256,50 +254,48 @@ main {
 }
 
 .card-menu {
-    border: 2px solid #d4ab7a;
-    width: 30%;
-    background-color: #13131a;
+  border: 2px solid #d4ab7a;
+  width: 30%;
+  background-color: #13131a;
 }
 
 .card-menu:hover {
-    scale: 1.05;
-    transition-duration: 300ms;
-    transition-property: all;
-    transition-timing-function: ease-in-out;
+  scale: 1.05;
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
 }
 
 .card-menu > div {
-    padding: 1rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+  padding: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .card-menu > div > img {
-    width: 6rem;
+  width: 6rem;
 }
 
 .card-menu > div > button {
-    width: 10rem;
-    height: 2.5rem;
-    color: white;
-    background-color: #d4ab7a;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 500;
+  width: 10rem;
+  height: 2.5rem;
+  color: white;
+  background-color: #d4ab7a;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
 }
-
-
-
 
 /* tablet responsive */
 @media only screen and (max-width: 768px) {
+  /* navbar */
   nav {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -314,8 +310,34 @@ main {
   }
 
   .nav-dropdown.active {
-  display: block;
-}
+    display: block;
+  }
+
+  /* hero */
+  .text-hero {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .text-hero > h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .text-hero > p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .text-hero > button {
+    width: 8rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
 }
 
 /* mobile responsive */
