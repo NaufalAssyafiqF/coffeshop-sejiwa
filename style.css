@@ -81,6 +81,11 @@ nav {
   cursor: pointer;
 }
 
+.nav-dropdown > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
 .nav-dropdown > ul > li:hover {
   width: 100%;
   background-color: #c49e70;
@@ -484,9 +489,21 @@ footer {
   cursor: pointer;
 }
 
+.nav-footer > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
 .nav-footer > ul > li:hover {
   color: #d4ab7a;
   border: 1px solid #d4ab7a;
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: ease-out;
+}
+
+.nav-footer > ul > li:hover a {
+  color: #d4ab7a;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: ease-out;
