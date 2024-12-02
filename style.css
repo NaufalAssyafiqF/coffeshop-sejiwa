@@ -595,6 +595,11 @@ main {
     font-size: 1.5rem;
   }
 
+  .card-menu > div > img {
+    width: 5rem;
+    height: 5rem;
+  }
+
   /* products */
   #products {
     padding-left: 1rem;
